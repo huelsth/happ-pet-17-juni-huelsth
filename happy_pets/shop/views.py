@@ -3,7 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.admin.views.decorators import staff_member_required
 from django.contrib import messages
 from .models import Product, Order, OrderItem,Cart,CartItem, Review
-from .forms import ReviewForm, ProductForm, CartItemForm
+from .forms import ReviewForm, ProductForm, CartItemForm,OrderForm
 
 def home(request):
     return render(request, 'shop/home.html')
