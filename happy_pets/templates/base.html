@@ -1,0 +1,15 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+  <h1>{{ product.name }}</h1>
+  <p>{{ product.description }}</p>
+  <p>Price: ${{ product.price }}</p>
+  <form method="post" action="{% url 'add_to_cart' product.pk %}">
+    {% csrf_token %}
+    <button type="submit">Add to cart</button>
+  </form>
+  <h2>Reviews</h2>
+  <form method="post">
+    <!-- Additional form content -->
+  </form>
+{% endblock %}
