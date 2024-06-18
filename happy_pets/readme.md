@@ -84,4 +84,33 @@ This project is an e-commerce platform for pet products called "Happy Pets". The
 - Manage products, view and manage orders, and update delivery statuses.
 
 ## Project Structure
-
+happy_pets/
+├── happy_pets/
+│ ├── init.py
+│ ├── settings.py
+│ ├── urls.py
+│ ├── asgi.py
+│ ├── wsgi.py
+├── shop/
+│ ├── init.py
+│ ├── admin.py
+│ ├── apps.py
+│ ├── models.py
+│ ├── views.py
+│ ├── urls.py
+│ ├── templates/
+│ │ ├── shop/
+│ │ │ ├── base.html
+│ │ │ ├── home.html
+│ │ │ ├── product_list.html
+│ │ │ ├── product_detail.html
+│ │ │ ├── cart.html
+│ │ │ ├── order_history.html
+├── media/
+├── static/
+│ ├── css/
+│ │ ├── styles.css
+├── manage.py
+├── requirements.txt
+├── .gitignore
+└── README.md
