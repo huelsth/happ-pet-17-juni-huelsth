@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'shop',
     'paypal.standard.ipn',
+    
 ]
 
 MIDDLEWARE = [
